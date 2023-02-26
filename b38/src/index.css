@@ -1,0 +1,35 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar nav ul li{
+  display: inline-block;
+  align-content: baseline;
+}
+
+.bar{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 1px dotted red;
+}
+.menu{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+}
+.menu nav ul li{
+  display: inline-block;
+}
+.container-fluid menu nav ul li .nav{
+  color: #dd4c04;
+  font-size: 20px;
+  font-family: redo;
+  margin-left: 20px;
+  padding: 3px5px;
+  text-decoration: none;
+}
+
+.menu nav ul li .nav:hover{
+  color: red;
+}
